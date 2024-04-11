@@ -1,5 +1,5 @@
 # Pass.in - Web Dashboard
-![Captura de ecrã 2024-04-11 160430](https://github.com/josedeneto/pass.in_web/assets/58984566/aa4d9e10-4879-48de-ab24-aa1f645491ab)
+![Captura de ecrã 2024-04-11 160733](https://github.com/josedeneto/pass.in_web/assets/58984566/3627446d-cd69-4579-b41f-58386ac676d1)
 # Descrição do projecto
 Pass.in é um Dashboard para gerenciamentos de participantes de um evento, permite a busca de particpantes e controlo dos mesmos.<br>
 Este projecto foi criado durante o evento #NLW-UNITE da RocketSeat.
