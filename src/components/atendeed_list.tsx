@@ -15,7 +15,10 @@ dayjs.locale('pt-br')
 export function AttendeeList() {
     let [search,setName] = useState('');
     let [page, setPage] = useState(1);
+
+ 
     const totalPage = Math.ceil(attendees.length/10);
+    
     function onSearchInput(event:ChangeEvent<HTMLInputElement>){
     setName(event.target.value);
     }
@@ -41,7 +44,6 @@ export function AttendeeList() {
                     <input onChange={onSearchInput} className="search-bar" type="text" placeholder="Buscar participante..." />
                   
                 </div>
-                {search} 
             </div>
             <div className="list-participants">
                 <Table>
@@ -83,7 +85,7 @@ export function AttendeeList() {
                                             </div>
                                         </TableCell>
                                         <TableCell>{dayjs().to(attendee.checkedAt)}</TableCell>
-                                        <TableCell>{dayjs().to(attendee.checkedAt)}</TableCell>
+                                        <TableCell>{attendee.checkedIn===null?'Não fez check-in':dayjs().to(attendee.checkedIn)}</TableCell>
                                         <TableCell style={{ width: 50 }}><IconButton transparent><MoreHorizontal className="btn-more-icon" /></IconButton></TableCell>
 
                                     </tr>
@@ -113,4 +115,8 @@ export function AttendeeList() {
             </div>
         </div>
     )
+}
+
+function useEffect(arg0: () => void) {
+    throw new Error("Function not implemented.")
 }
