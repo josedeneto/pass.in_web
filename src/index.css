@@ -1,0 +1,161 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  outline: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app_container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  max-width: 1216px;
+  margin: 0 auto;
+  gap: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 8px;
+}
+
+.menu a {
+  font-size: 14;
+  font: 600px;
+}
+
+/*Attendeed*/
+.attendee-container{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.attendeed {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.attendeed h1 {
+  font-size: 24px;
+}
+
+.attendeed .search {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-grow: 1px;
+  padding: 6px 6px;
+  border: 1px solid rgba(226, 226, 226, 0.089);
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  width: 280px;
+  opacity: 1;
+}
+
+.search .icon-search {
+  width: 20px;
+  height: 20px;
+  color: lightgreen;
+
+}
+
+.search-bar {
+  outline: none;
+  width: 280px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.container-table {
+  border: 1px solid rgba(226, 226, 226, 0.089);
+  border-radius: 8px;
+}
+
+.table-list {
+  width: 100%;
+}
+
+.table-list th {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(226, 226, 226, 0.089);
+  text-align: left;
+}
+.table-list td{
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.name-participant{
+  font-weight: 500;
+  color: #fff;
+}
+.tbody-tr td{
+  color: rgb(148, 148, 148);
+  border-bottom: 1px solid rgba(226, 226, 226, 0.089);
+}
+.tbody-tr td div{
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+}
+ .btn-more{
+  background-color: #242424;
+  border-radius: 8px;
+  border: 1px solid rgba(226, 226, 226, 0.089);
+  cursor: pointer;
+}
+
+.btn-more .btn-more-icon{
+  height: 19px; width: 20px;
+}
+.btn-pag{
+  background-color: rgba(68, 68, 68, 0.685);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-pag .btn-more-icon{
+  height: 22px; width: 20px; 
+}
+.pagination{
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+}
+.pagination-icons{
+  display: flex;
+  gap: 5px;
+}
+.tfoot-td-right{
+  text-align: right;
+}
