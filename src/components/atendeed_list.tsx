@@ -13,7 +13,7 @@ import 'dayjs/locale/pt-br'
 dayjs.extend(relativeTime)
 dayjs.locale('pt-br')
 export function AttendeeList() {
-    let [search,setName] = useState('');
+    let [,setName] = useState('');
     let [page, setPage] = useState(1);
 
  
@@ -117,6 +117,3 @@ export function AttendeeList() {
     )
 }
 
-function useEffect(arg0: () => void) {
-    throw new Error("Function not implemented.")
-}
