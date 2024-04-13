@@ -1,4 +1,5 @@
-# Pass.in - Web Dashboard
+# Pass.in - Dashboard
+Link: https://pass-in-dashboard-bay.vercel.app/
 ![Captura de ecrã 2024-04-11 160733](https://github.com/josedeneto/pass.in_web/assets/58984566/3627446d-cd69-4579-b41f-58386ac676d1)
 # Descrição do projecto
 Pass.in é um Dashboard para gerenciamentos de participantes de um evento, permite a busca de particpantes e controlo dos mesmos.<br>
